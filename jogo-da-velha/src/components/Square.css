@@ -1,0 +1,12 @@
+.square{
+    width: 100px;
+    height: 80px;
+    background-color:  darkolivegreen;
+    border: none;
+    border-radius: 8px;
+    color:white;
+    font-weight: bold;
+    font-size: 3em;
+    cursor: pointer;
+
+}
