@@ -1,6 +1,18 @@
 import "./Square.css";
 
+{
+  /*
+    quadradinhos dentro do game
+    comeca sempre do menor componente para o maior
+    */
+}
+
 function Square({ value, onClick }) {
+  {
+    /*
+    classe dinamica
+    */
+  }
   let style = null;
 
   if (value == "X") style = "square x";
@@ -9,7 +21,7 @@ function Square({ value, onClick }) {
 
   return (
     <div>
-      <button onClick={onClick} className="{style}">
+      <button onClick={onClick} className={style}>
         {value}
       </button>
     </div>
@@ -17,10 +29,3 @@ function Square({ value, onClick }) {
 }
 
 export default Square;
-
-{
-  /*
-    quadradinhos dentro do game
-    comeca sempre do menor componente para o maior
-    */
-}
