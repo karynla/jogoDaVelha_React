@@ -1,9 +1,4 @@
-{
-  /*
-    quadradinhos dentro do game
-    comeca sempre do menor componente para o maior
-    */
-}
+import "./Square.css";
 
 function Square({ value, onClick }) {
   let style = null;
@@ -22,3 +17,10 @@ function Square({ value, onClick }) {
 }
 
 export default Square;
+
+{
+  /*
+    quadradinhos dentro do game
+    comeca sempre do menor componente para o maior
+    */
+}
