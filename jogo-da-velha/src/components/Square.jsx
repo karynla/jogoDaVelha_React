@@ -8,11 +8,7 @@ import "./Square.css";
 }
 
 function Square({ value, onClick }) {
-  {
-    /*
-    classe dinamica
-    */
-  }
+  //criando a condicao da classe dinamica para usar no css
   let style = null;
 
   if (value == "X") style = "square x";
