@@ -6,7 +6,7 @@ import "./Square.css";
     comeca sempre do menor componente para o maior
     */
 }
-
+// props (propriedades): value-valor do square onClick-funcao que define o estado do square(x o ou sem nada)
 function Square({ value, onClick }) {
   //criando a condicao da classe dinamica para usar no css
   let style = null;
